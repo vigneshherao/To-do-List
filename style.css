@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+}
+.main{
+    background-color: white;
+    height: 25rem;
+    width: 30rem;
+    border: 1 px solid white;
+    border-radius: 0.8rem;
+    margin: 5rem auto;
+}
+h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkblue;
+    font-weight: 700;
+}
+.add-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+}
+.add-list p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color:darkblue;
+    padding-left: 1rem;
+}
+.adder-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(233, 233, 233);
+    border-radius: 0.8rem;
+    padding-left: 1.2rem;
+    margin-bottom: 1.5rem;
+    margin: 1rem;
+}
+.add-input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: rgb(233, 233, 233);
+}
+
+button{
+    background-color: orange;
+    color:white;
+    border: none;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.add-list i{
+    margin-left: 1rem;
+    font-size: 0.7rem;
+}
