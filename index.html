@@ -11,19 +11,14 @@
     <div class="main">
         <h2>To-Do-List</h2>
         <div class="adder-input">
-            <input class="add-input" type="text" placeholder="Add your task">
-            <button>Add</button>
+            <input class="add-input" id="add-inputs" type="text" placeholder="Add your task">
+            <button onclick="addTask()">Add</button>
         </div>
-        <div class="add-list">
-            <input type="checkbox">
-            <p>Create a javascript project</p>
-            <i class="fa-solid fa-x"></i>
-        </div>
-        <div class="add-list">
-            <input type="checkbox">
-            <p>Create a javascript project</p>
-            <i class="fa-solid fa-x"></i>
-        </div>
+        <ul id="list">
+            <!-- <li class="checked">Task 1</li>
+            <li class="checked">Task 2</li> -->
+        </ul>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
