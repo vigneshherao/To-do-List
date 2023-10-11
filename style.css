@@ -21,6 +21,12 @@ h2{
     color: darkblue;
     font-weight: 700;
 }
+h2:hover{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
 .add-list{
     display: flex;
     justify-content: center;
